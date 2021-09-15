@@ -1,0 +1,143 @@
+* {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+
+}
+
+body {
+    overflow-x: hidden
+}
+
+/* home */
+#navbar-top {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+
+}
+
+#logo {
+    height: 50px;
+    width: 130px;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.img-background-home {
+    padding-top: 140px;
+    background-color: #ecebe9;
+    background-image: url('../img/architect-body-bg.png');
+    background-repeat: repeat;
+    background-position: center top;
+}
+
+.column-box-icon {
+    padding: 0;
+    height: auto;
+    width: 200px;
+
+}
+
+.icon-hover {
+    transition: all 0.3s;
+}
+
+.icon-hover:hover {
+    transform: translateY(-10px);
+}
+
+.icon-gray {
+    color: #666666;
+}
+
+.icon-light-gray {
+    color: #b5b09a;
+}
+
+.img-background-wrapper {
+    padding-top: 140px;
+    background-image: url('../img/architect-body-bg.png');
+    background-repeat: repeat;
+    background-position: center top;
+    position: relative;
+}
+
+.rounded {
+    transition: all 0.4s ease-in;
+}
+
+.rounded:hover {
+    transform: scale(1.03);
+}
+
+.margin-7 {
+    margin: 7rem 0;
+}
+
+.icon-footer {
+    color: #383735be;
+}
+
+.loc-bar {
+    list-style: none;
+}
+
+.padding-100 {
+    padding-bottom: 100px;
+}
+
+/* contact */
+.img-background-contact {
+    background-image: url('../img/02.jpg');
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    height: 640px;
+}
+
+#contact-us {
+    padding: 120px 0;
+}
+
+.icon-contact {
+    color: #91A0B3;
+
+}
+
+.light-blue {
+    color: #5697d3;
+}
+
+.contact-email:hover {
+    border-bottom: 1px solid #5697d3;
+}
+
+.bg-gray {
+    background-color: #ECEBE9;
+}
+
+/* about */
+.img-background-about {
+    background-image: url('../img/space-about.jpg');
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    height: 640px;
+}
+
+#about-us {
+    padding: 130px 0;
+}
+
+.info-title {
+    border-bottom: 2px solid #d6d5d5;
+    width: 30%;
+    transition: all 0.6s;
+}
+
+.info-title:hover {
+    border-bottom: 2px solid #5697d3;
+    width: 30%;
+}
